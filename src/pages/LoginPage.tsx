@@ -51,7 +51,7 @@ export const LoginPage: React.FC = () => {
             return false;
         }
         if (!hasLetter || !hasNumber) {
-            setPasswordError('密碼必須包含英文字母和數字');
+            setPasswordError('密碼必須包含英文字母和數字xxxxxxxxxxxxxxxxx');
             return false;
         }
         setPasswordError('');
